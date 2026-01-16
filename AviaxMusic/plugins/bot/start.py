@@ -143,7 +143,7 @@ async def start_gp(client, message: Message, _):
 async def api_console_cb(client, query: CallbackQuery):
     await query.message.edit_caption(
         caption="""
-🚀 **NEXGENBOTS API Console**
+🚀 **@URERYX API Console**
 
 Fast, reliable & developer-friendly API access.
 
@@ -178,8 +178,7 @@ Fast, reliable & developer-friendly API access.
 • Fair rate-limits  
 • Dev-friendly  
 
-🛒 **Buy / Manage API**
-Use the console below 👇
+🛒 **Buy / @URERYX**
         """,
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
@@ -264,4 +263,5 @@ async def welcome(client, message: Message):
                 await message.stop_propagation()
 
         except Exception as ex:
+
             print(ex)
