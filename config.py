@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
-API_KEY = getenv("API_KEY", '30DxNexGenBots28f693') # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
+API_KEY = getenv("API_KEY", '30DxNexGenBots7fG9kL') # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -43,14 +43,14 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HEART_STR1NGS")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/HEART_STR1NGS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/anime_community_group")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/anime_community_group")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://t.me/HEART_STR1NGS")
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://t.me/music_ryo")
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -85,21 +85,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/2kgzc2.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/2kgzc2.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/2kgzc2.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/2kgzc2.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/2kgzc2.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/2kgzc2.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/2kgzc2.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/2kgzc2.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/2kgzc2.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/2kgzc2.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/2kgzc2.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/2kgzc2.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/9806820d661b377f7fb4f.jpg"
 
 
 def time_to_seconds(time):
@@ -121,6 +121,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
