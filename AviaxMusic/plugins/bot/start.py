@@ -143,7 +143,7 @@ async def start_gp(client, message: Message, _):
 async def api_console_cb(client, query: CallbackQuery):
     await query.message.edit_caption(
         caption="""
-🚀 **@URERYX API Console**
+🚀 **@arfinvoldigoads API Console**
 
 Fast, reliable & developer-friendly API access.
 
@@ -185,8 +185,8 @@ Fast, reliable & developer-friendly API access.
             [
                 [
                     InlineKeyboardButton(
-                        "🛒 Open API Console",
-                        url="https://console.nexgenbots.xyz",
+                        "🛒 Dm Owner",
+                        url="https://t.me/arfinvoldigoads",
                     )
                 ],
                 [
@@ -265,3 +265,4 @@ async def welcome(client, message: Message):
         except Exception as ex:
 
             print(ex)
+
